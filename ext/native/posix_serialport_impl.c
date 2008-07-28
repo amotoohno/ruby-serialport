@@ -49,7 +49,7 @@ static int get_fd_helper(obj)
    return (fileno(fptr->f));
 }
 
-static VALUE sp_create_impl(class, _port)
+VALUE sp_create_impl(class, _port)
    VALUE class, _port;
 {
    OpenFile *fp;
@@ -141,7 +141,7 @@ static VALUE sp_create_impl(class, _port)
    return (VALUE) sp;
 }
 
-static VALUE sp_set_modem_params_impl(argc, argv, self)
+VALUE sp_set_modem_params_impl(argc, argv, self)
    int argc;
    VALUE *argv, self;
 {
