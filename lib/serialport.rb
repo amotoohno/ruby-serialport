@@ -1,4 +1,4 @@
-require "serialport.so"
+require 'native/serialport'
 
 class SerialPort
    private_class_method(:create)

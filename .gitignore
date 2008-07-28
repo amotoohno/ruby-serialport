@@ -1,0 +1,10 @@
+/pkg
+/doc
+
+/ext/native/*.bundle
+/ext/native/*.log
+/ext/native/*.o
+/ext/native/*.so
+/ext/native/Makefile
+.*.swp
+tags
