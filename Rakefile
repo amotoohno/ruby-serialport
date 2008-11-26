@@ -16,6 +16,7 @@ spec = Gem::Specification.new do |s|
    s.has_rdoc = true
    s.extra_rdoc_files = [ "README", "ext/native/serialport.c", "ext/native/serialport.h" ]
    s.rdoc_options = [ "--main", "README" ]
+   s.require_paths = ['lib', 'ext']
    s.authors = ["Guillaume Pierronnet", "Alan Stern", "Daniel E. Shipton"]
    s.email = "daniel.shipton.oss@gmail.com"
    s.homepage = "http://ruby-serialport.rubyforge.org"
